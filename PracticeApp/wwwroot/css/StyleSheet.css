@@ -1,0 +1,25 @@
+﻿body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.cakepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
