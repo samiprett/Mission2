@@ -28,6 +28,12 @@ $("#calcbutton").click(function () {
     } else {
         lettergrade = 'E'
     }
-
-    alert("Grade: " + grade + "   Letter Grade: " + lettergrade);
+    grade = widow.sessionStorage;
+    lettergrade = window.sessionStorage;
 })
+
+//window.onload(){
+//    alert("Grade: " + grade + "   Letter Grade: " + lettergrade);
+//}
+
+window.addEventListener("load", alert("Grade: " + grade + "   Letter Grade: " + lettergrade);

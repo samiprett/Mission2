@@ -1,0 +1,33 @@
+﻿
+
+<!DOCTYPE html>
+
+<nav>
+    <a asp-controller="Sub" asp-action="Index">Home</a>
+    <a asp-controller="Sub" asp-action="GradeCalc">Grade Calculator</a>
+</nav>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+</head>
+<body class="content">
+    <div>
+        @RenderBody()
+    </div>
+
+    <!--links to my bootstrap, jquery, and javascript. In the order they will work-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/gradecalculator.js"></script>
+</body>
+
+</html>
